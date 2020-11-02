@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "pretty": true,
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+    "lib": [
+      "dom",
+      "ESNext"
+    ]
+  },
+  "paths": {
+    "@types/*": ["types/*"]
+  }
+}
